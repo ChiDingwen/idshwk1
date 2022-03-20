@@ -1,0 +1,1 @@
+alert tcp any any -> 172.16.189.1 8080 (content:"I am IDS Homework 1"; msg:"TEST ALERT"; sid:99999999)
